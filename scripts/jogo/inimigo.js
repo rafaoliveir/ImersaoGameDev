@@ -19,4 +19,7 @@ class Inimigo extends Animacao {
       this.x = width
     }
   }
+  alteraVelocidade(novaVelocidade) {
+    this.velocidade = novaVelocidade
+  }
 }
