@@ -1,6 +1,6 @@
 
 <h3 align="center">
-    <img width="200px" src="/imagens/assets/char.gif">
+    <img width="200px" src="/imagens/assets/bruxinha.gif">
    
 
 ## 🎮 Sobre o projeto
@@ -14,5 +14,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - HTML5/Canvas
 
 
-
-## 🕹️ Resultado
+ <img align=center width="200px" src="/imagens/assets/poring.gif">
