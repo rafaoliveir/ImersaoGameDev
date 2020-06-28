@@ -1,16 +1,3 @@
-function preload() {
-  imagemCenario = loadImage('imagens/cenario/floresta.png');
-  imagemTelaInicial = loadImage('imagens/assets/telaInicial.png');
-  imagemGameOver = loadImage('imagens/assets/game-over.png');
-  imagemPersonagem = loadImage('imagens/personagem/correndo.png');
-  imagemInimigo = loadImage('imagens/inimigos/gotinha.png');
-  imagemInimigoVoador = loadImage('imagens/inimigos/gotinha-voadora.png');
-  imagemInimigoTroll = loadImage('imagens/inimigos/troll.png');
-  fonteTelaInicial = loadFont('imagens/assets/fonteTelaInicial.otf');
-  somDoJogo = loadSound('sons/trilha_jogo.mp3');
-  somDoPulo = loadSound('sons/somPulo.mp3');
-}
-
 function setup() {
   createCanvas(windowWidth, windowHeight);
   telaInicial = new TelaInicial()
@@ -27,7 +14,13 @@ function setup() {
 
 function keyPressed() {
  jogo.keyPressed(key)
+   if (endOfGame && key === 'Enter') {
+    window.location.reload();
+  }
 }
+  
+  
+
 
 function draw() {
   // if(cenaAtual === 'jogo') {

@@ -18,7 +18,10 @@ let pontuacao;
 let cenaAtual = 'telaInicial'
 let cenas
 let botaoGerenciador
-
+let imagemVida
+let vida
+let fita
+let endOfGame
 //matriz para movimentar o personagem e inimigos
 
 const matrizInimigo = [
