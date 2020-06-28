@@ -5,7 +5,7 @@
 
 ## 🕹️ Sobre o projeto
 Jogo desenvolvido em Javascript com a utilização da biblioteca p5.js durante a imersão GameDev da Alura. <br>
-O objetivo do jogo é ir mais longe que conseguir sem enconstar em um inimigo. Game over ao perder 5 vidas. <br>
+O objetivo do jogo é ir o mais longe que conseguir sem enconstar em um inimigo. Game over ao perder 5 vidas. <br>
 <p>Pula ao pressionar ⬆️</p>
  <img align=right width="200px" src="/imagens/assets/poring.gif">
 
