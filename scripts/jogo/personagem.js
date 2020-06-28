@@ -26,7 +26,7 @@ class Personagem extends Animacao {
     this.y = this.yInicial;
 
     this.velocidadeDoPulo = 0;
-    this.gravidade = 10;
+    this.gravidade = 7;
     this.alturaDoPulo = -50;
     this.pulos = 0;
     this.invencivel = false;
