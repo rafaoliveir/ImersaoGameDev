@@ -16,8 +16,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [p5.js](https://editor.p5js.org/)
 - HTML5/Canvas
 
-## Resultado
+## 🎮 Resultado
+<p align="center">
+<img width="600px" src="/imagens/tela.png">
 
-
+    
 [JOGUE AQUI](https://rafaoliveir.github.io/Lucy/)
 
